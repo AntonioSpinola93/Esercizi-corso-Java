@@ -12,6 +12,7 @@ public class Main {
      *    one line using the "+" in your print statement. Only use 1 print statement
      */
     private static void exercise1() {
+        System.out.println("\nExercise 1: ");
         int myAge = 29;
         System.out.println("My age is :"+ myAge );
         // Write your code here
@@ -25,6 +26,7 @@ public class Main {
      *    System.out.println("My Age=" + myAge +", my initial=" + myInitial);
      */
     private static void exercise2() {
+        System.out.println("\nExercise 2: ");
         char myInitial = 'A';
         int myAge = 29;
         System.out.println("My age is : "+ myAge + "and my initial is : "+ myInitial );
