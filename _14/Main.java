@@ -9,6 +9,7 @@ public class Main {
         exercise2();
         exercise3();
         exercise4();
+        exercise5();
 
     }
 
@@ -128,7 +129,7 @@ public class Main {
     /**
      * 5: BONUS! This is an optional task, but it is recommended you complete it
      * -------------------------------------------------------------------------<br/>
-     * Inside of the fori loop below, write another fori loop to complete all
+     * Inside of the for i loop below, write another for i loop to complete all
      * the multiplication tables between 1-10.
      *
      * i.e. 5  = 5,10,15,20,25,30,35,40,45,50
@@ -137,7 +138,37 @@ public class Main {
      */
     private static void exercise5() {
         for (int timesTableNumber = 1; timesTableNumber <= 10; timesTableNumber++) {
-            // Your fori loop here
+        }
+        for (int timesTableNumber = 2; timesTableNumber <= 20; timesTableNumber = timesTableNumber + 2) {
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 3; timesTableNumber <= 30; timesTableNumber = timesTableNumber + 3){
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 4; timesTableNumber <= 40; timesTableNumber = timesTableNumber + 4){
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 5; timesTableNumber <= 50; timesTableNumber = timesTableNumber + 5){
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 6; timesTableNumber <= 60; timesTableNumber = timesTableNumber + 6){
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 7; timesTableNumber <= 70; timesTableNumber = timesTableNumber + 7) {
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 8; timesTableNumber <= 80; timesTableNumber = timesTableNumber + 8) {
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 9; timesTableNumber <= 90; timesTableNumber = timesTableNumber + 9) {
+            System.out.println(timesTableNumber);
+        }
+        for (int timesTableNumber = 10; timesTableNumber <= 100; timesTableNumber = timesTableNumber + 10) {
+            System.out.println(timesTableNumber);
         }
     }
-}
+
+
+    }
+
+
