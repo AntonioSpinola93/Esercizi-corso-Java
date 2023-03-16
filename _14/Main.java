@@ -8,6 +8,7 @@ public class Main {
         exercise1();
         exercise2();
         exercise3();
+        exercise4();
 
     }
 
@@ -116,9 +117,9 @@ public class Main {
         System.out.println("\nExercise 4:");
 
         for (
-                int timesTableCurrentValue = 5; // <---- Edit this line
-                timesTableCurrentValue <= 50; // <---- Edit this line
-                timesTableCurrentValue = timesTableCurrentValue + 5 // <---- Edit this line
+                int timesTableCurrentValue = 8; // <---- Edit this line
+                timesTableCurrentValue <= 80; // <---- Edit this line
+                timesTableCurrentValue = timesTableCurrentValue + 8// <---- Edit this line
         ) {
             System.out.println(timesTableCurrentValue);
         }
